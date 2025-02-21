@@ -1,0 +1,1 @@
+// Dynamic route for CMS content

@@ -10,8 +10,7 @@ import TwitterProvider from 'next-auth/providers/twitter';
 import AppleProvider from 'next-auth/providers/apple';
 import CredentialsProvider from 'next-auth/providers/credentials';
 //import { MongoDBAdapter } from "@next-auth/mongodb-adapter" // REMOVED
-import getDb from './db'; // Import getDb FUNCTION
-import { MongoClient } from 'mongodb';
+import { getDb } from './db'; // Import getDb FUNCTION
 import bcrypt from 'bcryptjs';
 import type { Account, Profile } from 'next-auth'; // Import Account and Profile
 

@@ -150,6 +150,10 @@ const initializeNextApp = () => {
     console.log('Adding Next.js themes...');
     executeCommand(`npm install next-themes@latest --legacy-peer-deps`);
 
+    // Stage 15: Add Mongoose
+    console.log('Adding Mongoose...');
+    executeCommand(`npm install mongoose@latest --legacy-peer-deps`);
+
     // --- Step 7: Display setup instructions ---
     console.log('\nNext.js application initialized successfully!');
     console.log('\n--- Setup Instructions ---');
